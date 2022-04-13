@@ -7,8 +7,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import java.util.zip.Inflater;
-
 public class MainActivity extends AppCompatActivity {
 
     Button btnRes;
@@ -19,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         btnRes = findViewById(R.id.btnRegister);
-        btnSign = findViewById(R.id.btnSignIn);
+        btnSign = findViewById(R.id.btnRes);
 
         btnRes.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -52,7 +52,7 @@
         app:srcCompat="@drawable/intersect" />
 
     <Button
-        android:id="@+id/btnSignIn"
+        android:id="@+id/btnRes"
         android:layout_width="291dp"
         android:layout_height="72dp"
         android:layout_marginBottom="172dp"
@@ -75,7 +75,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnSignIn"
+        app:layout_constraintTop_toBottomOf="@+id/btnRes"
         app:layout_constraintVertical_bias="0.578"
         app:strokeColor="@color/white"
         app:strokeWidth="3dp" />

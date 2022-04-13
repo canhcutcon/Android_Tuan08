@@ -42,7 +42,7 @@
         app:srcCompat="@drawable/group_5" />
 
     <Button
-        android:id="@+id/btnSignIn"
+        android:id="@+id/btnSingIn"
         android:layout_width="252dp"
         android:layout_height="50dp"
         android:layout_marginTop="12dp"
@@ -52,7 +52,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2"
+        app:layout_constraintTop_toBottomOf="@+id/edPassRepeatRes"
         app:strokeColor="#FFFFFF"
         app:strokeWidth="3dp" />
 
@@ -65,14 +65,14 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnSignIn"
+        app:layout_constraintTop_toBottomOf="@+id/btnRes"
         app:layout_constraintVertical_bias="0.408"
         app:srcCompat="@drawable/intersect" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/edEmail"
         android:layout_width="262dp"
-        android:layout_height="46dp"
+        android:layout_height="48dp"
         android:layout_marginTop="24dp"
         android:ems="10"
         android:hint="Email"
@@ -84,9 +84,9 @@
         tools:ignore="DuplicateClickableBoundsCheck,DuplicateClickableBoundsCheck" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/edPass"
         android:layout_width="260dp"
-        android:layout_height="45dp"
+        android:layout_height="48dp"
         android:layout_marginTop="8dp"
         android:drawableEnd="@drawable/group"
         android:ems="10"
@@ -95,7 +95,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/edEmail" />
 
     <TextView
         android:id="@+id/textView"
@@ -106,7 +106,7 @@
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnSignIn" />
+        app:layout_constraintTop_toBottomOf="@+id/btnSingIn" />
 
     <LinearLayout
         android:layout_width="348dp"
