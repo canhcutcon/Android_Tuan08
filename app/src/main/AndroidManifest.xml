@@ -11,7 +11,9 @@
         android:theme="@style/Theme.Android_Tuan8">
         <activity
             android:name=".Screen_04_Action"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="landscape"
+            />
         <activity
             android:name=".Screen_02_SignIn"
             android:exported="false" />

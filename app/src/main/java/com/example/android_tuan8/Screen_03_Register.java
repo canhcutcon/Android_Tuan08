@@ -25,7 +25,7 @@ public class Screen_03_Register extends AppCompatActivity {
 
         fAuth = FirebaseAuth.getInstance();
 
-        Button btn_register = findViewById(R.id.btnRegister);
+        Button btn_register = findViewById(R.id.btnRes);
         EditText edtName = findViewById(R.id.edName);
         EditText edtEmail = findViewById(R.id.edMailRes);
         EditText edtPass = findViewById(R.id.edPassRes);
