@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "648257992566",
+    "project_id": "androidtuan8",
+    "storage_bucket": "androidtuan8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648257992566:android:16d3a1e29e500637886c57",
+        "android_client_info": {
+          "package_name": "com.example.android_tuan8"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648257992566-u6fm0oqli5s5bqp8t0as86s93ldg6ldp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8U_xXVvXmMjv5ZURr2Do5ZIg3V67DAJ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648257992566-u6fm0oqli5s5bqp8t0as86s93ldg6ldp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

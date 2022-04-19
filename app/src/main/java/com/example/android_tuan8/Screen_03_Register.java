@@ -1,5 +1,6 @@
 package com.example.android_tuan8;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -46,6 +47,8 @@ public class Screen_03_Register extends AppCompatActivity {
                         public void onComplete(@NonNull Task<AuthResult> task) {
                             if(task.isSuccessful()) {
                                 Toast.makeText(Screen_03_Register.this, "create success" , Toast.LENGTH_SHORT).show();
+                                Intent intent = new Intent(Screen_03_Register.this, Screen_02_SignIn.class);
+                                startActivity(intent);
                             } else {
                                 Toast.makeText(Screen_03_Register.this, "create Fail" , Toast.LENGTH_SHORT).show();
                             }

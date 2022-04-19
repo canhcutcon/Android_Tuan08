@@ -9,20 +9,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Android_Tuan8">
-        <activity android:name=".Screen_02_SignIn"
-            android:exported="false"/>
-        <activity android:name=".Screen_03_Register"
-            android:exported="false"/>
+        <activity
+            android:name=".Screen_04_Action"
+            android:exported="false" />
+        <activity
+            android:name=".Screen_02_SignIn"
+            android:exported="false" />
+        <activity
+            android:name=".Screen_03_Register"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
     </application>
 
 </manifest>
